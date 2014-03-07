@@ -1,0 +1,215 @@
+body {
+    background:#000000 url(http://loveless-2014-5718.appspot.com/img/bg.jpg) top center no-repeat;
+}
+a{
+  color:red;
+}
+#backform{
+  display:none;
+}
+#Adminemail{
+  border:1px solid white;
+}
+#admin{
+  position:absolute;
+  margin-top:50px;
+  display:none;
+}
+#loginb {
+    margin-left:-55px;
+}
+#adminemail{
+  width:130px;
+}
+#userinfo{
+  color:white;
+  position:absolute;
+  margin-top:10px;
+  //display:none;
+}
+#currentemail{
+  color:white;
+  position:absolute;
+  margin-top:40px;
+  display:none;
+}
+#email{
+  width:150px;
+}
+#SubmitEmail{
+  position:absolute;
+  margin-left:-50px;
+}
+#Login {
+    font-family:Helvetica;
+    color:white;
+    position:absolute;
+    left:50%;
+    top:10%;
+    margin-top:280px;
+    margin-bottom:30px;
+}
+.error {
+    color:red;
+    margin-top:22px;
+    height:25px;
+    border-radius:6px;
+    font-size:7px;
+    width:250px;
+}
+.input1 {
+    border:1px solid white;
+    opacity:0.7;
+    background:white;
+    color:Black;
+    padding-left:10px;
+    margin-top:20px;
+    height:25px;
+    border-radius:6px;
+    font-size:7px;
+    width:250px;
+}
+#emailerror {
+    font-family:Helvetica;
+    color:red;
+    margin-top:20px;
+    font-size:15px;
+}
+#Email {
+    border:1px solid white;
+    opacity:0.7;
+    background:white;
+    color:Black;
+    padding-left:10px;
+    margin-top:20px;
+    height:25px;
+    border-radius:6px;
+    font-size:7px;
+    width:280px;
+}
+#Name {
+    width:200px;
+}
+#Age {
+    width:180px;
+}
+#YOE {
+    width:135px;
+}
+#TTU {
+    width:140px;
+}
+#logo {
+    height:257px;
+    width:667px;
+    left:50%;
+    margin-left:-333px;
+    top:10%;
+    position:absolute;
+}
+.input {
+    border:0px solid white;
+    border-radius:4px;
+    width:auto;
+}
+#total {
+    display:none;
+    font-family:Helvetica;
+    color:white;
+    position:absolute;
+    left:50%;
+    top:10%;
+    margin-top:280px;
+    margin-bottom:30px;
+}
+#total2 {
+    font-family:Helvetica;
+    color:white;
+    position:absolute;
+    left:50%;
+    top:10%;
+    margin-top:284px;
+    margin-left:270px;
+}
+#screenshot {
+    position:absolute;
+    left:50%;
+    top:10%;
+    margin-top:290px;
+    //margin-top:310px;
+    margin-left:-300px;
+}
+#Cover {
+    font-family:Helvetica;
+    color:white;
+    position:absolute;
+    left:50%;
+    top:10%;
+    margin-top:270px;
+    display:none;
+}
+#successful {
+    display:none;
+    color:white;
+    position:absolute;
+    left:50%;
+    top:10%;
+    margin-top:240px;
+    margin-left:-400px;
+    width:800px;
+    text-align:center;
+}
+#successinfo {
+    //text-shadow:0px 0px 3px white;
+    font-family:Arial;
+}
+#Connect2 {
+    position:absolute;
+    left:300px;
+    margin-top:10px;
+}
+#back {
+    position:absolute;
+    left:300px;
+    margin-top:60px;
+}
+#connect2 {
+    width:200px;
+}
+#back2 {
+    width:200px;
+}
+.input:focus {
+    outline:none;
+}
+.botton {
+    border-radius:12px;
+    outline:none;
+    cursor:pointer;
+    height:40px;
+    width:100px;
+    border-radius:10px;
+    background: -webkit-gradient(linear, center top, center bottom, from(#F2F5A9), to(#FFBF00));
+    //box-shadow:1px 1px 3px white;
+    top:50%;
+    left:50%;
+    position:relative;
+    margin-top:20px;
+}
+.button {
+    border-radius:12px;
+    outline:none;
+    cursor:pointer;
+    height:40px;
+    width:100px;
+    border-radius:10px;
+    background: -webkit-gradient(linear, center top, center bottom, from(#F2F5A9), to(#FFBF00));
+}
+#Connect {
+    display:inline-block;
+    margin-left:-50px;
+}
+#Submit {
+    margin-left:58px;
+    display:inline-block;
+}

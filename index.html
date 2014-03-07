@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>有没有觉得好厉害--@。@</title>
+        <script src='//code.jquery.com/jquery-2.1.0.min.js'></script>
+        <link rel="stylesheet" type="text/css" href="/css.css">
+    </head>
+    
+    <body>
+      <div id='backform'><form><input type="text" class="input" name="OperateEmail" id="OperateEmail"/></form></div>
+        <iframe name="theID" style="display: none;"></iframe>
+        <script src='/js.js'></script>
+        <div id="logo">
+            <img src="/img/logo.png" width="667px" height="257px">
+        </div>
+      <div id="userinfo">Welcome!! Please Login!!!</div>
+      <div id="currentemail">Current Operation Account is: none</div>
+        <div id="screenshot">
+            <img src="/img/screenshot.png" width="261px" height="226px">
+        </div>
+        <div id='Login'><form>
+            <div id="Email">Your Email Address:
+              <input type="text" class="input" name="email" id="email" placeholder="input email address" />
+            </div></form>
+            <div id='emailerror'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            <div id="loginbutton">
+                <input class="botton" id="loginb" name="loginbutton" type="button" onClick="gettest();" value="Let's Go!" />
+            </div>
+        </div>
+      <div id="admin">
+      <form>
+        <div id="Adminemail" class="input1">Email address:
+                    <input type="text" class="input" name="adminemail" id="adminemail" placeholder="input email-address" />
+                </div>
+        <div id="SubmitEmail">
+                    <input id="submitemail" class="botton" name="submit" type="button" onClick="Check();" value="Check" />
+                </div>
+        </form></div>
+        <div id="total">
+            <form action="/postapi" method="post">
+                <div id="name" class="input1">Name:
+                    <input type="text" class="input" name="Name" id="Name" placeholder="input your name" />
+                </div>
+                <div id="age" class="input1">Age(0~99):
+                    <input type="text" class="input" name="Age" id="Age" placeholder="input your age" />
+                </div>
+                <div id="gender" class="input1">Gender:
+                    <input type="text" class="input" name="Gender" id="Gender" placeholder="input your gender" />
+              </div>
+                <div id="yoe" class="input1">Year of Exp(0~99):
+                    <input class="input" type="text" name="YOE" id="YOE" placeholder="input your Exp. year" />
+                </div>
+                <div id="ttu" class="input1">Talent Tree URL:
+                    <input class="input" type="text" name="TTU" id="TTU" placeholder="input your URL" />
+                </div>
+                <div id="Connect">
+                    <input class="botton" id="connect" name="Connect" type="button" onClick="gettest();" value="View-WebPage" />
+                </div>
+                <div id="Submit">
+                    <input id="submit" class="botton" name="submit" type="button" onClick="submitcheck();" value="Submit" />
+                </div>
+            </form>
+        </div>
+        <div id="Cover">
+            <div id="cover"></div>
+            <div id="Submit2">
+                <input id="submit2" class="button" name="submit" type="button" onClick="submit2();" value="Ok, I got it.(5)" />
+            </div>
+        </div>
+        <div id="successful">
+            <div id="successinfo"></div>
+            <div id="Connect2">
+                <input class="button" id="connect2" name="Connect2" type="button" value="Connect to your Webpage!" />
+            </div>
+            <div id="back">
+                <input class="button" id="back2" name="back" type="button" value="Come back to mainpage!" onClick="connect2();" />
+            </div>
+        </div>
+        <div id="total2">
+            <div id="name2" class="error"></div>
+            <div id="age2" class="error"></div>
+            <div id="gender2" class="error"></div>
+            <div id="yoe2" class="error"></div>
+            <div id="ttu2" class="error"></div>
+        </div>
+    </body>
+
+</html>
